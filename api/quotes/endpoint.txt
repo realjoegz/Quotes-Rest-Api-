@@ -1,0 +1,18 @@
+GET /quotes
+  Returns All quotes
+GET /quotes/id 
+  Returns a quote by its id
+GET /quotes/random
+  Returns a random quote
+GET /quotes/random/number
+  Returns a random number of quotes
+GET /quotes/users/id
+  Returns all quotes belonging to a particular users
+POST /quotes
+  Posts a new quote
+PUT /quotes
+  Updates a specific quote
+DELETE /quotes
+  Deletes a specific quote
+POST /users
+  Adds a new user
